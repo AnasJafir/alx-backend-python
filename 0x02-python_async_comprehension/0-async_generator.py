@@ -20,5 +20,5 @@ async def async_generator() -> Generator[float, None, None]:
 
     """
     for _ in range(10):
-        time.sleep(1)  # wait for 1 second
-        yield random.random() * 10  # yield a random number between 0 and 10
+        time.sleep(1)
+        yield random.random() * 10
